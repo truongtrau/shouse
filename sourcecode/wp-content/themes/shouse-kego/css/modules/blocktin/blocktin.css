@@ -1,0 +1,38 @@
+.blocktin {
+  border:1px solid #ddd;
+  background: #fff;
+}
+.blocktin .nhadep-title {
+  background: none repeat scroll 0 0 #fff;
+  color: #000;
+  font-size: 20px;
+  line-height: 40px;
+  padding-left: 20px;
+  border-bottom:1px solid #ddd;
+}
+
+.blocktin ul {
+    /*background: #ddd;*/
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    min-height: 220px;
+}
+.blocktin ul li{
+  /*list-style: square outside none;*/
+  margin-bottom: 10px;
+  /*margin-left: 20px;*/
+  color:#444;
+  font-size: 11px;
+  clear: both;
+  min-height: 60px;
+}
+
+.blocktin ul li img{
+  margin-right: 10px;
+  float: left;
+}
+
+.blocktin ul li a{
+  color:#888;
+  font-size: 14px;
+}
