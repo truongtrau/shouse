@@ -255,6 +255,8 @@ div.product .woocommerce-price-and-add .single_add_to_wishlist.button {
 
 .yith-wcwl-add-to-wishlist {
     margin-top: 10px;
+    position: absolute;
+    margin-top: -101px;
 }
 
 .yith-wcwl-add-button > a i,

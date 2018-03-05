@@ -1,0 +1,75 @@
+/*Quick View Under Image*/
+
+body #main div.box_content div.box_item .entry-item.sticky_product .thumbnail .quick_view_ultimate_content_under a{
+	display: none !important;
+}
+
+.quick_view_ultimate_under_button {
+	white-space: nowrap;
+	text-decoration:none !important;
+	display: inline-block !important;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+}
+.quick_view_ultimate_content_under .quick_view_ultimate_under_button:hover {
+	opacity:0.9;
+}
+
+/*Quick View On Hover*/
+.quick_view_ultimate_container {
+	display:none !important;
+}
+.product_hover .quick_view_ultimate_container {
+	display: block !important;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	z-index:999;
+}
+.quick_view_ultimate_container .quick_view_ultimate_content {
+	width: 100%;
+	text-align:center;
+	clear:both;
+	height:auto;
+	max-height:100%;
+	position:relative;
+	display:block;
+}
+.product_hover .quick_view_ultimate_container span{display:block;}
+.product_hover .quick_view_ultimate_container span {
+	vertical-align:middle;
+	white-space: nowrap;
+	text-decoration:none !important;
+	display: inline-block !important;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+	z-index:1;
+}
+#cboxContent .quick_view_popup_loading {
+	background: url('../images/color_loading.gif') no-repeat center center rgba(255, 255, 255, 0.8) !important ;	
+}
+#cboxLoadedContent:hover .quick_view_control_container, .pp_content:hover .quick_view_control_container {
+	opacity:1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=1);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+}
+.pp_content .quick_view_popup_loading {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.pp_content .pp_loaderIcon {
+	z-index: 10002;
+}
+.ad-preloads {
+	position: absolute;
+	left: -9000px;
+	top: -9000px;
+}
+.quick_view_product_gallery_container .woocommerce-product-gallery {
+	width: 100% !important;
+	margin-right: 0 !important; 
+}

@@ -32,7 +32,6 @@ get_header('shop'); ?>
             
                 <section id="content" class="nine columns <?php if($sidebarposition=="left"){echo "positionright omega";}else{echo "positionleft alpha";}?>">
                     <div class="padcontent">
-
 							<?php 
                                 /** 
                                  * woocommerce_before_main_content hook
@@ -49,25 +48,27 @@ get_header('shop'); ?>
                             <?php elseif ( ! is_search() && get_query_var( 'paged' ) == 0 && ! empty( $shop_page ) && is_object( $shop_page ) ) : ?>
                                 <?php echo '<div class="page-description">' . apply_filters( 'the_content', $shop_page->post_content ) . '</div>'; ?>
                             <?php endif; ?>
-                                    
+                                   
                             <?php if ( have_posts() ) : ?>
-                            
                                 <?php do_action('woocommerce_before_shop_loop'); ?>
                             	<div id="dessky-display-products">
                                     <ul class="dessky-display-pd-col-4 products">
                                     
                                         <?php woocommerce_product_subcategories(); ?>
-                                
+                              
                                         <?php while ( have_posts() ) : the_post(); ?>
                                 
                                             <?php woocommerce_get_template_part( 'content', 'product' ); ?>
                                 
                                         <?php endwhile; // end of the loop. ?>
-                                        
+                                    
                                     </ul>
+                                    
                     			</div>
+
+
                                 <?php do_action('woocommerce_after_shop_loop'); ?>
-                            
+                         
                             <?php else : ?>
                             
                                 <?php if ( ! woocommerce_product_subcategories( array( 'before' => '<ul class="products">', 'after' => '</ul>' ) ) ) : ?>
@@ -116,5 +117,4 @@ get_header('shop'); ?>
             </div>
         </div>
         <!-- END MAIN CONTENT -->
-
 <?php get_footer('shop'); ?>

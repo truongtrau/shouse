@@ -8,10 +8,8 @@
 <meta name="keywords" content="kệ treo tường,ke treo tuong,kệ gỗ treo tường,kệ gỗ trang trí,kệ treo tường trang trí,ke treo tuong trang tri,ke treo tuong gia re,kệ treo tường giá rẻ,Kệ tivi đẹp, Kệ tivi treo tường, Tủ tivi đẹp, mau ke tivi dep, mẫu kệ tivi đẹp,tủ tivi phòng khách" />
 <meta name="generator" content="PrestaShop" />
 <meta name="robots" content="index,follow" />
-<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<link rel="icon" type="image/vnd.microsoft.icon" href="/images/favicon.ico?1506307066" />
-<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?1506307066" />
 <link rel="author" href="https://plus.google.com/112014373140752732101"/>
 <link rel="publisher" href="https://plus.google.com/112014373140752732101"/>
 
@@ -25,6 +23,7 @@
 <meta property="twitter:account_id" content="2607958171" />
 <meta property="twitter:card" content="summary" />
 <meta property="twitter:title" content="Kệ treo tường trang trí giá rẻ nhất 2018 - shouse" />
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/css/autoload/highdpi.css" type="text/css" media="all" />
@@ -96,7 +95,7 @@ jQuery(function($){
 
             /*#region responsive code begin*/
 
-            var MAX_WIDTH = 780, MIN_HEIGHT = 450;
+            var MAX_WIDTH = 1170, MIN_HEIGHT = 450;
 
             function ScaleSlider() {
                 var containerElement = jssor_1_slider.$Elmt.parentNode;
@@ -225,31 +224,14 @@ jQuery(function($){
 <div id="columns" class="container">
 <div id="slider_row" class="row">
 <div id="top_column" class="center_column col-xs-12 col-sm-12">
-
-<div id="htmlcontent_top">
-
-<ul class="htmlcontent-home clearfix row">
-<li class="htmlcontent-item-1 col-xs-4"> 
-<a href="http://www.facebook.com/shouseletrongtan" class="item-link" onclick="return !window.open(this.href);" title="K&#7871;t n&#7889;i facebook shouse"> 
-<img src="<?php bloginfo( 'template_directory' ); ?>/images/fef87814dd900dda915cfbd0deac630e2fbe1a34_bnp5.jpg" class="item-img " title="K&#7871;t n&#7889;i facebook shouse" alt="K&#7871;t n&#7889;i facebook shouse" width="381" height="219"/> 
-</a>
-</li>
-<li class="htmlcontent-item-2 col-xs-4"> 
-<a href="<?php bloginfo('template_directory'); ?>/lien-he/" class="item-link" title="Li&ecirc;n h&#7879; shouse"> 
-<img src="<?php bloginfo( 'template_directory' ); ?>/images/e612f61af7e6254836dbc499f690c780ccf507a6_bnp.jpg" class="item-img " title="Li&ecirc;n h&#7879; shouse" alt="Li&ecirc;n h&#7879; shouse" width="381" height="219"/> 
-</a>
-</li>
-</ul>
-</div>
-
 <div id="homepage-slider">
 <ul id="homeslider" style="max-height:450px;">
-<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:450px;overflow:hidden;visibility:hidden;">
+<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1170px;height:450px;overflow:hidden;visibility:hidden;">
         <!-- Loading Screen -->
         <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
             <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="<?php bloginfo('template_directory'); ?>/images/spin.svg" />
         </div>
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:450px !important;overflow:hidden;">
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1170px;height:450px !important;overflow:hidden;">
             <div data-p="170.00">
                 <img data-u="image" src="<?php bloginfo('template_directory'); ?>/images/slide/slide1.jpg" />
             </div>
@@ -322,7 +304,7 @@ jQuery(function($){
 </section>
 </div>
 </div>
-<div class="row">
+
 <div class="col-xs-12 col-sm-8 col-md-9">
 <div id="tree-note">
 <div class="tree-note-wrap">

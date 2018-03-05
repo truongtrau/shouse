@@ -12,7 +12,6 @@
  *
  * @package WooCommerce
  */
-
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
@@ -41,3 +40,4 @@ function wc() {
 
 // Global for backwards compatibility.
 $GLOBALS['woocommerce'] = wc();
+remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart');

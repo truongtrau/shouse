@@ -64,5 +64,4 @@ $woocommerce_loop['loop']++;
 	do_action( 'woocommerce_after_shop_loop_item' ); 
 	
 	?>
-			
 </li>

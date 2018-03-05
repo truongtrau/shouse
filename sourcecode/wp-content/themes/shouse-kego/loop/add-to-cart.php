@@ -31,7 +31,7 @@ if( $product->get_price() === '' && $product->product_type != 'external' ) retur
 			break;
 			default :
 				$link 	= apply_filters( 'add_to_cart_url', esc_url( $product->add_to_cart_url() ) );
-				$label 	= apply_filters( 'add_to_cart_text', __('Add to cart', 'woocommerce') );
+				$label 	= apply_filters( 'add_to_cart_text', __('Mua hàng', 'woocommerce') );
 			break;
 		}
 	

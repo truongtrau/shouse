@@ -37,13 +37,13 @@ get_header(); ?>
                     </section><!-- content -->
                     
                     <aside id="sidebar" class="col-md-3 <?php if($sidebarposition=="left"){echo "positionleft alpha";}else{echo "positionright omega";}?>">
-                        <?php get_sidebar();?>  
+                        <?php get_sidebar();?>
                     </aside><!-- sidebar -->
                     
                 </section><!-- maincontent -->
+
             </div>
         </div>
     </div>
         <!-- END MAIN CONTENT -->
-    
 <?php get_footer(); ?>

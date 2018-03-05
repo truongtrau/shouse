@@ -213,10 +213,9 @@ hr {
 
 /* Button */
 a.button, a.button:visited, input.button, input.button:visited, input[type="submit"], a.more-link, div.product form.cart button.button, #content div.padcontent a.button.alt, #maincontent div.entry-content a.button.alt, #content div.padcontent #order_review input.button.alt, #maincontent div.entry-content #order_review input.button.alt, #content div.padcontent form input.button, #maincontent div.entry-content form input.button, #content div.padcontent form .button, #maincontent div.entry-content form .button, #sidebar button.button, .home-page-boxes .widget a.button, .home-page-boxes .widget a.button:visited, .membership-homepage .memberAndTestimonial a.button, .membership-homepage .memberAndTestimonial a.button:visited, .flex-caption a.button, .flex-caption a.button:visited, .kws_input_container input.b {
-	background: #079ab1; /* for non-css3 browsers */
-	background: -webkit-gradient(linear, left top, left bottom, from(#0cc3e0), to(#079ab1)); /* for webkit browsers */
-	background: #59B73F; /* for firefox 3.6+ */
-	border-radius: 8px 8px 8px 8px;
+	/*background: #079ab1; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#0cc3e0), to(#079ab1)); 
+	background: #59B73F; */
     box-shadow: 0 2px 0 #057497;
     text-shadow: 1px 1px 1px #057497;
 	color:#fff;
@@ -225,12 +224,9 @@ a.button, a.button:visited, input.button, input.button:visited, input[type="subm
 }
 
 a.button:hover, input.button:hover, input[type="submit"]:hover, a.more-link:hover, div.product form.cart button.button:hover, #content div.padcontent a.button.alt:hover, #maincontent div.entry-content a.button.alt:hover, #content div.padcontent #order_review input.button.alt:hover, #maincontent div.entry-content #order_review input.button.alt:hover, #content div.padcontent form input.button:hover, #maincontent div.entry-content form input.button:hover, #content div.padcontent form .button:hover, #maincontent div.entry-content form .button:hover, #sidebar button.button:hover, .home-page-boxes .widget a.button:hover, .membership-homepage .memberAndTestimonial a.button:hover, .flex-caption a.button:hover, .kws_input_container input.b:hover {
-	background: #037282; /* for non-css3 browsers */
-	background: -webkit-gradient(linear, left top, left bottom, from(#1799c1), to(#037282)); /* for webkit browsers */
-	background: -moz-linear-gradient(top,  #1799c1,  #037282); /* for firefox 3.6+ */
-	box-shadow: 0 2px 0 #00444e;
+/*	box-shadow: 0 2px 0 #00444e;
     text-shadow: 1px 1px 1px #00444e;
-	color:#fff;
+	color:#fff;*/
 }
 
 /* Dropcaps */	
